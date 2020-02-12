@@ -9,10 +9,10 @@ int main(){
 	upper = 148.89;    /* upper limit */     
 	step = 11.11;      /* step size */     
 	celsius = lower;     
-	printf("Celsius\tFahr\n");
+	printf("Celsius\t\tFahr\n");
 	while(celsius <= upper){         
 		fahr = ((9.0/5.0) * celsius) + 32.01;         
-		printf("%7.2f\t%4.0f\n", celsius, fahr);
+		printf("%7.2f\t\t%4.0f\n", celsius, fahr);
 		celsius = celsius + step;
 	}
 }
